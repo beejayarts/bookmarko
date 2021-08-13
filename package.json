@@ -1,5 +1,4 @@
 {
-
   "name": "bookmarkoreact",
   "version": "0.1.0",
   "private": true,
@@ -41,7 +40,7 @@
   },
   "devDependencies": {
     "autoprefixer": "9",
-    "postcss": "^8.3.0",
+    "postcss": "7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
