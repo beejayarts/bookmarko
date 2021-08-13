@@ -1,5 +1,5 @@
 {
-  "homepage": "https://beejayarts.github.io/bookmarko",
+
   "name": "bookmarkoreact",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
