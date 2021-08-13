@@ -1,0 +1,6 @@
+nav ul:last-child li:last-child a:hover {
+    background-color:transparent;
+    border: 2px solid #fa5757;
+    color:#fa5757;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,52 @@
+#left-button:hover {
+    background-color:transparent;
+    border: 2px solid ;
+    color:#5368df;
+    transition: all 0.3s ease-in-out;
+}
+
+#right-button:hover {
+    background-color:transparent;
+    border: 2px solid ;
+    color:#9194a1;
+    transition: all 0.3s ease-in-out;
+}
+
+#illu-bg{
+    content: '';
+    background-color:#5368df ;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    width: 100%;
+    height: 70%;
+    z-index: -900;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+}
+
+@media  (max-width:540px){
+    #illu-bg{
+        
+        top: 5rem;
+        left: 10rem;
+        width: 100%;
+        height: 70%;
+        z-index: -900;
+        border-top-left-radius: 20rem;
+        border-bottom-left-radius: 20rem;
+    }
+}
+
+@media  (max-width:360px){
+    #illu-bg{
+        
+        top: 3rem;
+        left: 3rem;
+        width: 100%;
+        height: 80%;
+        z-index: -900;
+        border-top-left-radius: 20rem;
+        border-bottom-left-radius: 20rem;
+    }
+}

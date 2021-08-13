@@ -1,0 +1,29 @@
+.card-button:hover{
+ background: #4156ce;
+
+}
+
+/* .card-two{
+    position: absolute;
+    top: 30px;
+  right:50%;
+  left: 20%;
+    
+
+} */
+
+.card-wrapper{
+    min-height: 50vh;
+}
+
+.card-one, .card-two, .card-three{
+    height: 56%;
+}
+
+.card-two{
+    align-self: center;
+}
+
+.card-three{
+    align-self: flex-end;
+}
